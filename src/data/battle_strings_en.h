@@ -356,11 +356,11 @@ enum
 };
 
 const u8 BattleText_UnknownString[] = _("{STRING 33}");
-const u8 BattleText_GainExpPoints[] = _("{STRING 0} gained{STRING 1}\n{STRING 42} EXP. Points!\p");
+const u8 BattleText_GainExpPoints[] = _("{STRING 0} a gagné{STRING 1}\n{STRING 42} points d'Exp!\p");
 const u8 BattleText_Terminator[] = _("");
-const u8 BattleText_BoostedExp[] = _(" a boosted");
-const u8 BattleText_GrewLevel[] = _("{STRING 0} grew to\nLV. {STRING 1}!{UNKNOWN_A}\p");
-const u8 BattleText_LearnedMove[] = _("{STRING 0} learned\n{STRING 1}!{UNKNOWN_A}\p");
+const u8 BattleText_BoostedExp[] = _(" un boost de");
+const u8 BattleText_GrewLevel[] = _("{STRING 0} est passé\nau niveau {STRING 1}!{UNKNOWN_A}\p");
+const u8 BattleText_LearnedMove[] = _("{STRING 0} a appris\n{STRING 1}!{UNKNOWN_A}\p");
 const u8 BattleText_TryingToLearnMove[] = _("{STRING 0} is trying to\nlearn {STRING 1}.\p");
 const u8 BattleText_CantLearnMore[] = _("But, {STRING 0} can’t learn\nmore than four moves.\p");
 const u8 BattleText_DeleteMove[] = _("Delete a move to make\nroom for {STRING 1}?");
@@ -1366,12 +1366,12 @@ const u16 gFirstTurnOfTwoStringIds[] =
 
 const u16 gWrappedStringIds[] =
 {
-    BATTLE_TEXT_SqueezedBind, 
-    BATTLE_TEXT_Wrapped, 
-    BATTLE_TEXT_TrappedVortex, 
-    BATTLE_TEXT_Clamped, 
-    BATTLE_TEXT_TrappedVortex, 
-    BATTLE_TEXT_SandTombTrapped, 
+    BATTLE_TEXT_SqueezedBind,
+    BATTLE_TEXT_Wrapped,
+    BATTLE_TEXT_TrappedVortex,
+    BATTLE_TEXT_Clamped,
+    BATTLE_TEXT_TrappedVortex,
+    BATTLE_TEXT_SandTombTrapped,
 };
 
 const u16 gMistUsedStringIds[] =
@@ -1499,10 +1499,10 @@ const u16 gWeatherContinuesStringIds[] =
 
 const u16 gInobedientStringIds[] =
 {
-    BATTLE_TEXT_LoafingAround, 
-    BATTLE_TEXT_WontObey, 
-    BATTLE_TEXT_TurnedAway, 
-    BATTLE_TEXT_NotNotice, 
+    BATTLE_TEXT_LoafingAround,
+    BATTLE_TEXT_WontObey,
+    BATTLE_TEXT_TurnedAway,
+    BATTLE_TEXT_NotNotice,
 };
 
 const u16 gSafariGetNearStringIds[] =
