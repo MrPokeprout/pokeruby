@@ -1,4 +1,4 @@
-const u8 Category_Credits[] = _("{PALETTE 9}Credits");
+const u8 Category_Credits[] = _("{PALETTE 9}Crédits");
 const u8 Category_ExecutiveDirector[] = _("{PALETTE 9}Executive Director");
 const u8 Category_Director[] = _("{PALETTE 9}Director");
 const u8 Category_ArtDirector[] = _("{PALETTE 9}Art Director");
@@ -135,7 +135,7 @@ const u8 Text_ABA[] = _("Australian Braille Authority");
 const u8 Text_RNZFotB[] = _("Royal New Zealand Federation for the Blind");
 const u8 Text_CreditsTerminator[] = _("");
 #ifdef SAPPHIRE
-const u8 Text_Version[] = _("{PALETTE 9}POKéMON SAPPHIRE VERSION"); 
+const u8 Text_Version[] = _("{PALETTE 9}POKéMON SAPPHIRE VERSION");
 #else
 const u8 Text_Version[] = _("{PALETTE 9}POKéMON RUBY VERSION");
 #endif
